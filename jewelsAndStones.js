@@ -17,6 +17,9 @@ S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
  */
 
+
+ // time = O(J + S) J = J.length, S = S.length 
+ // space = O(J)
 var numJewelsInStones = function (J, S) {
     let count = 0;
     let jewelSet = new Set();

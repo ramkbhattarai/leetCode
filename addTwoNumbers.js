@@ -29,6 +29,7 @@ class LinkedList{
 
    
 }
+// time = O(n) space = O(n)
 function addTwoNumbersRecursive(l1, l2){
     let node = null;
     const carry = arguments[2]; // arguments is an Array-like object accessible
@@ -48,7 +49,7 @@ function addTwoNumbersRecursive(l1, l2){
     }
     return node
 }
-
+// time= O(n) space = O(n)
 var addTwoNumbersIterative = function (l1, l2) {
     let dummyHead = new ListNode(0);
     let first = l1;

@@ -15,6 +15,9 @@ Input: address = "255.100.50.0"
 Output: "255[.]100[.]50[.]0"
  */
 
+
+ // time = O(n)
+ // space = O(1)
 var defangIPaddr = function (address) {
     let ans = "";
     for (let i = 0; i < address.length; i++) {
